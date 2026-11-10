@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520"><rect width="800" height="520" fill="#e9eef0"/>
+<rect x="0" y="0" width="800" height="48" rx="0" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="20" y="30" font-size="17" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#fff" font-weight="700">Table Ticket</text>
+<rect x="470" y="10" width="100" height="28" rx="6" fill="#f2b705" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="520" y="29" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#1b2a2e">Menu</text>
+<rect x="578" y="10" width="100" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="628" y="29" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">My orders</text>
+<rect x="686" y="10" width="100" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="736" y="29" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">Chef queue</text>
+<text x="30" y="85" font-size="22" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Menu</text>
+<rect x="30" y="100" width="50" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="55.0" y="119.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">All</text>
+<rect x="90" y="100" width="80" height="28" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="130.0" y="119.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#1b2a2e">Starters</text>
+<rect x="180" y="100" width="70" height="28" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="215.0" y="119.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#1b2a2e">Mains</text>
+<rect x="260" y="100" width="70" height="28" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="295.0" y="119.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#1b2a2e">Drinks</text>
+<rect x="340" y="100" width="85" height="28" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="382.5" y="119.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#1b2a2e">Desserts</text>
+<rect x="30" y="150" width="205" height="155" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="42" y="176" font-size="15" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Item name</text>
+<text x="42" y="198" font-size="12" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#5d6c70">Short description…</text>
+<text x="42" y="240" font-size="14" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">$0.00</text>
+<rect x="42" y="262" width="120" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="102.0" y="281.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">Add to order</text>
+<rect x="250" y="150" width="205" height="155" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="262" y="176" font-size="15" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Item name</text>
+<text x="262" y="198" font-size="12" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#5d6c70">Short description…</text>
+<text x="262" y="240" font-size="14" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">$0.00</text>
+<rect x="262" y="262" width="120" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="322.0" y="281.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">Add to order</text>
+<rect x="30" y="320" width="205" height="155" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="42" y="346" font-size="15" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Item name</text>
+<text x="42" y="368" font-size="12" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#5d6c70">Short description…</text>
+<text x="42" y="410" font-size="14" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">$0.00</text>
+<rect x="42" y="432" width="120" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="102.0" y="451.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">Add to order</text>
+<rect x="250" y="320" width="205" height="155" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="262" y="346" font-size="15" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Item name</text>
+<text x="262" y="368" font-size="12" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#5d6c70">Short description…</text>
+<text x="262" y="410" font-size="14" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">$0.00</text>
+<rect x="262" y="432" width="120" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="322.0" y="451.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">Add to order</text>
+<rect x="490" y="85" width="280" height="300" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="505" y="112" font-size="16" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Your order</text>
+<text x="505" y="145" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e">2 × Item name</text>
+<rect x="690" y="128" width="70" height="22" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="725.0" y="144.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#12474f">Remove</text>
+<text x="505" y="175" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e">2 × Item name</text>
+<rect x="690" y="158" width="70" height="22" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="725.0" y="174.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#12474f">Remove</text>
+<text x="505" y="205" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e">2 × Item name</text>
+<rect x="690" y="188" width="70" height="22" rx="6" fill="#fff" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="725.0" y="204.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#12474f">Remove</text>
+<text x="505" y="265" font-size="14" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#1b2a2e" font-weight="700">Total</text>
+<text x="755" y="265" font-size="14" font-family="Segoe UI,Arial,sans-serif" text-anchor="end" fill="#1b2a2e" font-weight="700">$0.00</text>
+<rect x="505" y="285" width="250" height="28" rx="6" fill="#12474f" stroke="#1b2a2e" stroke-width="1.5"/>
+<text x="630.0" y="304.0" font-size="13" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="#fff">Place order</text>
+<text x="490" y="415" font-size="12" font-family="Segoe UI,Arial,sans-serif" text-anchor="start" fill="#5d6c70">Empty category → "No items in this category."</text>
+<text x="20" y="508" font-size="12" font-family="Arial" fill="#5d6c70">Wireframe 1: Menu (customer). Cart is a side panel, so it also covers checkout.</text></svg>
