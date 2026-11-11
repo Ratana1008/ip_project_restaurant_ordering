@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sokha",
+      "email": "sokha@example.com",
+      "passwordHash": "demo-hash",
+      "role": "customer"
+    },
+    {
+      "id": 2,
+      "name": "Dara",
+      "email": "dara@example.com",
+      "passwordHash": "demo-hash",
+      "role": "customer"
+    },
+    {
+      "id": 3,
+      "name": "Chef Vanna",
+      "email": "vanna@example.com",
+      "passwordHash": "demo-hash",
+      "role": "chef"
+    },
+    {
+      "id": 4,
+      "name": "Ratana",
+      "email": "ratana@example.com",
+      "passwordHash": "demo-hash",
+      "role": "admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Starters"
+    },
+    {
+      "id": 2,
+      "name": "Mains"
+    },
+    {
+      "id": 3,
+      "name": "Drinks"
+    },
+    {
+      "id": 4,
+      "name": "Desserts"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "Fresh spring rolls",
+      "description": "Rice paper, herbs, prawn, peanut dip.",
+      "price": 3.5,
+      "categoryId": 1,
+      "isAvailable": true
+    },
+    {
+      "id": 2,
+      "name": "Green mango salad",
+      "description": "Shredded mango, dried shrimp, lime.",
+      "price": 4,
+      "categoryId": 1,
+      "isAvailable": true
+    },
+    {
+      "id": 3,
+      "name": "Fish amok",
+      "description": "Steamed fish curry in banana leaf with rice.",
+      "price": 7.5,
+      "categoryId": 2,
+      "isAvailable": true
+    },
+    {
+      "id": 4,
+      "name": "Beef lok lak",
+      "description": "Wok-seared beef, pepper-lime dip, fried egg.",
+      "price": 8,
+      "categoryId": 2,
+      "isAvailable": true
+    },
+    {
+      "id": 5,
+      "name": "Chicken fried rice",
+      "description": "Egg, garlic, spring onion.",
+      "price": 5,
+      "categoryId": 2,
+      "isAvailable": false
+    },
+    {
+      "id": 6,
+      "name": "Iced coffee",
+      "description": "Strong coffee, condensed milk, ice.",
+      "price": 2.5,
+      "categoryId": 3,
+      "isAvailable": true
+    },
+    {
+      "id": 7,
+      "name": "Fresh coconut",
+      "description": "Served in the shell.",
+      "price": 2,
+      "categoryId": 3,
+      "isAvailable": true
+    },
+    {
+      "id": 8,
+      "name": "Sticky rice with mango",
+      "description": "Coconut cream, sesame.",
+      "price": 3.5,
+      "categoryId": 4,
+      "isAvailable": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "userId": 1,
+      "status": "pending",
+      "total": 11.5,
+      "createdAt": "2026-11-10T11:40:00"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "status": "preparing",
+      "total": 13,
+      "createdAt": "2026-11-10T11:32:00"
+    },
+    {
+      "id": 103,
+      "userId": 1,
+      "status": "ready",
+      "total": 7,
+      "createdAt": "2026-11-10T11:10:00"
+    },
+    {
+      "id": 104,
+      "userId": 1,
+      "status": "completed",
+      "total": 5.5,
+      "createdAt": "2026-11-09T12:05:00"
+    },
+    {
+      "userId": 4,
+      "status": "cancelled",
+      "total": 15,
+      "createdAt": "2026-11-10T15:54:42.581Z",
+      "id": 105
+    }
+  ],
+  "orderItems": [
+    {
+      "id": 1,
+      "orderId": 101,
+      "menuItemId": 3,
+      "quantity": 1,
+      "unitPrice": 7.5
+    },
+    {
+      "id": 2,
+      "orderId": 101,
+      "menuItemId": 2,
+      "quantity": 1,
+      "unitPrice": 4
+    },
+    {
+      "id": 3,
+      "orderId": 102,
+      "menuItemId": 4,
+      "quantity": 1,
+      "unitPrice": 8
+    },
+    {
+      "id": 4,
+      "orderId": 102,
+      "menuItemId": 6,
+      "quantity": 2,
+      "unitPrice": 2.5
+    },
+    {
+      "id": 5,
+      "orderId": 103,
+      "menuItemId": 1,
+      "quantity": 2,
+      "unitPrice": 3.5
+    },
+    {
+      "id": 6,
+      "orderId": 104,
+      "menuItemId": 8,
+      "quantity": 1,
+      "unitPrice": 3.5
+    },
+    {
+      "id": 7,
+      "orderId": 104,
+      "menuItemId": 7,
+      "quantity": 1,
+      "unitPrice": 2
+    },
+    {
+      "orderId": 105,
+      "menuItemId": 1,
+      "quantity": 1,
+      "unitPrice": 3.5,
+      "id": 8
+    }
+  ]
+}
