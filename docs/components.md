@@ -55,3 +55,22 @@ ChefQueueView
 
 - **Login / register** (wireframe 04): will have `LoginView` owning the form state (`email`, `password`, `error`).
 - **Admin menu** (wireframe 05): will have `AdminMenuView` owning the item list and the edit form, with `MenuItemRow` (props: `item`, `category`; events: `edit`, `delete`).
+
+## M1 changes
+
+Data now comes from json-server through `src/api/` and is kept in Pinia stores (`auth`, `menu`, `orders`). The views own only UI state (selected category, cart, form fields). Every page that loads data uses `StatePanel` for the loading, error, empty and success states.
+
+New and changed pieces:
+
+| Component | Props | Events | State it owns |
+|---|---|---|---|
+| StatePanel | `status: LoadStatus`, `error: string`, `isEmpty: boolean`, `emptyText: string` | `retry()` | none |
+| CartSummary | `lines: CartLine[]`, `busy?: boolean` | `remove(menuItemId)`, `place()` | none |
+| MenuItemCard | `item: MenuItem` | `add(item)` | none. Has a Details link to `/menu/:id` |
+| MenuItemDetailView (`/menu/:id`) | `id: string` (route param) | none | `item`, `status`, `error` |
+| LoginView (`/login`) | none | none | `email`, `password`, `touched`, `submitted`, `formError`, `busy` |
+| NotFoundView (catch-all) | none | none | none |
+
+Stores: `auth` (`user`, `login`, `logout`), `menu` (`items`, `categories`, `status`, `error`, `load`), `orders` (`orders`, `status`, `error`, `actionError`, `busy`, `load`, `place`, `cancel`, `advance`).
+
+Router guard: `/my-orders` needs a logged-in user; `/chef` needs the chef or admin role.
